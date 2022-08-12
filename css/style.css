@@ -1,10 +1,16 @@
-/* .google_translate_element{
-    scroll-behavior: hidden;
-} */
 .btn{
     width: fit-content;
     justify-content: space-between;
 }
+/* This hides the language from displaying  */
+.lang {
+    display: none;
+}
+/* This displayes the langugage on click of the button*/
+.show .lang {
+    display: grid;
+}
+
 
 p.fw-lighter{
     color: #959BB0;
